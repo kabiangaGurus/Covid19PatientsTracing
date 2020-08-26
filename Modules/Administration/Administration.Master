@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administration.Master.cs" Inherits="Covid19PatientsTracing.Modules.Administration.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <meta charset="utf-8">
+	<title>RegistrationForm_v2 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       <link href="../fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+
+        <link href="../../Content/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+        <link href="../../Content/css/style.css" rel="stylesheet" />
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style=" font-family: 'Muli-Regular';color: #666;font-size: 13px;margin: 0;background-size:60%)">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
